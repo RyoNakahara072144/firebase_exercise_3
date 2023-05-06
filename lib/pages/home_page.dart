@@ -35,10 +35,8 @@ class _AuthExerciseState extends State<AuthExercise> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
 
-    //リスナーの実行を忘れないようにしましょう。
     checkSignInState();
   }
 
