@@ -87,6 +87,7 @@ class _SignUpState extends State<SignUp> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             TextField(
+              keyboardType: TextInputType.emailAddress,
               controller: _emailEditingController,
               decoration: const InputDecoration(labelText: 'メールアドレス', border: OutlineInputBorder()),
             ),
